@@ -1,0 +1,27 @@
+body {
+  background-image: url("img/cloud.jpg");
+  height: 100vh;
+  background-size: cover; /* Optional: Makes sure the image covers the whole background */
+  background-position: center; /* Optional: Centers the image */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.SphereContainer {
+  height: 50vh;
+  border: 2px solid rgb(158, 158, 158);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  padding: 13px;
+  background-color: rgba(240, 248, 255, 0.3); /* 배경색을 반투명하게 설정 */
+}
+.place {
+  font-size: 30px;
+}
